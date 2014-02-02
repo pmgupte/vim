@@ -22,3 +22,8 @@ set ruler
 
 " watch for external file changes
 set autoread
+
+" Turn off backup, since most stuff is in git etc
+set nobackup
+set nowb
+set noswapfile
