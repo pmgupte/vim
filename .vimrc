@@ -33,3 +33,7 @@ set autoread
 set nobackup
 set nowb
 set noswapfile
+
+" highlight current line
+set cursorline
+" hi CursorLine cterm=NONE ctermbg=lightcyan guibg=darkred guifg=white
