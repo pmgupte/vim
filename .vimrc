@@ -19,3 +19,6 @@ colorscheme default
 
 " This makes vim show the current row and column at the bottom right of the screen.
 set ruler
+
+" watch for external file changes
+set autoread
