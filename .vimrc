@@ -1,9 +1,3 @@
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-"
-" Maintainer: Prabhas Gupte
-"
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
 " line numbers
 set nu
 
@@ -37,3 +31,5 @@ set noswapfile
 " highlight current line
 set cursorline
 " hi CursorLine cterm=NONE ctermbg=lightcyan guibg=darkred guifg=white
+" make current line bold
+hi CursorLine term=bold cterm=bold
