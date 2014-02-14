@@ -1,4 +1,4 @@
-vim-customizations
+vim
 ==================
 
-Vim editor customizations
+Vim editor customizations, settings and tips
