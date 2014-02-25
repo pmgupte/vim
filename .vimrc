@@ -12,7 +12,10 @@ set autoindent
 set ic
 
 " highlight search
-set hls
+set hlsearch
+
+" show search matches as you type
+set incsearch
 
 " change colorscheme from default to delek
 colorscheme default
