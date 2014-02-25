@@ -1,41 +1,27 @@
-" change terminal's title
-set title
+set title " set terminal's title
 
-" line numbers
-set nu
+set nu " line numbers
 
-" syntax highlighting
-syntax on
+syntax on " syntax highlighting
 
-" indent depending on filetype
-filetype indent on
-set autoindent
+filetype indent on " indent depending on filetype
+set autoindent " indent automatically
 
-" case insensitive search
-set ic
+set ic " case insensitive search
 
-" highlight search
-set hlsearch
+set hlsearch " highlight search
+set incsearch " show search matches as you type
 
-" show search matches as you type
-set incsearch
+colorscheme default " change colorscheme from default to delek
 
-" change colorscheme from default to delek
-colorscheme default
+set ruler " This makes vim show the current row and column at the bottom right of the screen.
 
-" This makes vim show the current row and column at the bottom right of the screen.
-set ruler
+set autoread " watch for external file changes
 
-" watch for external file changes
-set autoread
-
-" Turn off backup, since most stuff is in git etc
-set nobackup
+set nobackup " Turn off backup, since most stuff is in git etc
 set nowb
-set noswapfile
+set noswapfile " do not create .swp file
 
-" highlight current line
-set cursorline
+set cursorline " highlight current line
 " hi CursorLine cterm=NONE ctermbg=lightcyan guibg=darkred guifg=white
-" make current line bold
-hi CursorLine term=bold cterm=bold
+hi CursorLine term=bold cterm=bold  " make current line bold
