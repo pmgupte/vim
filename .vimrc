@@ -1,3 +1,6 @@
+" change terminal's title
+set title
+
 " line numbers
 set nu
 
