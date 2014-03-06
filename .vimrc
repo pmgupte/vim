@@ -12,7 +12,7 @@ set ic " case insensitive search
 set hlsearch " highlight search
 set incsearch " show search matches as you type
 
-colorscheme default " change colorscheme from default to delek
+colorscheme torte " change colorscheme from default to torte
 
 set ruler " This makes vim show the current row and column at the bottom right of the screen.
 
