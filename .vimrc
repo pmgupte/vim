@@ -25,3 +25,5 @@ set noswapfile " do not create .swp file
 set cursorline " highlight current line
 " hi CursorLine cterm=NONE ctermbg=lightcyan guibg=darkred guifg=white
 hi CursorLine term=bold cterm=bold  " make current line bold
+
+set mouse=a " enable use of mouse
