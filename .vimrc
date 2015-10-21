@@ -1,6 +1,6 @@
 set title " set terminal's title
 
-set nu " line numbers
+"set nu " line numbers
 
 syntax on " syntax highlighting
 
